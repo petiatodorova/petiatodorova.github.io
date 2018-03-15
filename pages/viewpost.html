@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoftUni Blog</title>
+
+    <script src="../scripts/jquery-3.3.1.js"></script>
+    <script src="../scripts/bootstrap.js"></script>
+    <link type="text/css" rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="../index.html" class="navbar-brand">SoftUni Blog</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<main>
+    <div class="container body-content">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <article>
+                    <header>
+                        <div class="jumbotron">
+                            <div class="container">
+                                <h1>Do you know?</h1>
+                                <p>Now, researchers in Japan and Italy propose a new approach to walking pattern generation, based on a hierarchical network of electronic oscillators arranged over two levels, which they have demonstrated using an ant-like hexapod robot. The achievement opens new avenues for the control of legged robots. Published in IEEE Access, the research is the result of collaboration between scientists from Tokyo Tech, in part funded by the World Research Hub Initiative, the Polish Academy of Sciences in Krakow, Poland, and the University of Catania, Italy.</p>
+                            </div>
+                        </div>
+                        <h1>Six-legged robots get closer to nature</h1>
+                    </header>
+
+                    <p class="lead"><em>A study led by researchers at Tokyo Institute of Technology (Tokyo Tech) has uncovered new ways of driving multi-legged robots by means of a two-level controller. The proposed controller uses a network of so-called non-linear oscillators that enables the generation of diverse gaits and postures, which are specified by only a few high-level parameters. The study inspires new research into how multi-legged robots can be controlled, including in the future using brain-computer interfaces.</em></p>
+                    <p>In the natural world, many species can walk over slopes and irregular surfaces, reaching places inaccessible even to the most advanced rover robots. It remains a mystery how complex movements are handled so seamlessly by even the tiniest creatures.</p>
+                    <p>What we do know is that even the simplest brains contain pattern-generator circuits (CPGs)[1], which are wired up specifically for generating walking patterns. Attempts to replicate such circuits artificially have so far had limited success, due poor flexibility.</p>
+                    <p>Now, researchers in Japan and Italy propose a new approach to walking pattern generation, based on a hierarchical network of electronic oscillators arranged over two levels, which they have demonstrated using an ant-like hexapod robot. The achievement opens new avenues for the control of legged robots. Published in IEEE Access, the research is the result of collaboration between scientists from Tokyo Tech, in part funded by the World Research Hub Initiative, the Polish Academy of Sciences in Krakow, Poland, and the University of Catania, Italy.</p>
+                    <p>The lead author of the study, Ludovico Minati, who is also affiliated to the Polish Academy of Sciences in Krakow, Poland and invited to Tokyo Tech's Institute of Innovative Research (IIR) through the World Research Hub Initiative explains that insects can rapidly adapt their gait depending on a wide range of factors, but particularly their walking speed. Some gaits are observed frequently and are considered as canonical, but in reality, a near-infinite number of gaits are available, and different insects such as ants and cockroaches realize similar gaits in very different postures.</p>
+                    <p>Difficulties have been encountered when trying to condense so much complexity into artificial pattern generators. The proposed controller shows an extremely high level of versatility thanks to implementation based on field-programmable analog arrays (FPAAs)[3], which allow on-the-fly reconfiguration and tuning of all circuit parameters. It builds on years of previous research on non-linear and chaotic electronic networks, which has demonstrated their ability to replicate phenomena observed in biological brains, even when wired up in very simple configurations.</p>
+                    <p>"Perhaps the most exciting moment in the research was when we observed the robot exhibit phenomena and gaits which we neither designed nor expected, and later found out also exist in biological insects," says Minati. Such emergent phenomena arise particularly as the network is realized with analog components and allows a certain degree of self-organization, representing an approach that vastly differs to conventional engineering, where everything is designed a-priori and fixed. "This takes us so much closer to the way biology works," he adds.</p>
+                    <p>The biologically-inspired controller consists of two levels. At the top, it contains a CPG[1], responsible for controlling the overall sequence of leg movements, known as gait. At the bottom, it contains six local pattern generators (LPGs)[2], responsible for controlling the trajectories of the individual legs.</p>
+                    <p>Yasuharu Koike, also based at the IIR, comments: "An important aspect of the controller is that it condenses so much complexity into only a small number of parameters. These can be considered high-level parameters, in that they explicitly set the gait, speed, posture, etc. Because they can be changed dynamically, in the future it should be easy to vary them in real-time using a brain-computer interface, allowing the control of complex kinematics otherwise impossible to dominate with current approaches."</p>
+                    <p>And Natsue Yoshimura, also based at the IIR, says: "As the controller responds gradually and embodies a biologically plausible approach to pattern generation, we think that it may be more seamless to drive compared to systems which decode discrete commands. This may have practical implications, and our lab has substantial know-how in this area."</p>
+
+                    <small class="author">
+                        Tokyo Institute of Technology
+                    </small>
+
+                    <footer>
+                        <div class="pull-right">
+                            <a class="btn btn-default btn-xs" href="../index.html">back &raquo;</a>
+                        </div>
+                    </footer>
+                </article>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div class = "container modal-footer">
+        <p>&copy; 2018 - Software University Organisation </p>
+    </div>
+</footer>
+
+</body>
+</html>
